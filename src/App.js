@@ -1,11 +1,12 @@
 import './App.css';
+import Table from "./components/Table";
+import Jumbotron from "./components/Jumbotron";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        Hello World!
-      </header>
+    <div>
+      <Jumbotron />
+      <Table />
     </div>
   );
 }

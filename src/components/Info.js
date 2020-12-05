@@ -1,6 +1,6 @@
 import React from "react";
 
-function Info(users) {
+function Info({ users }) {
   return (
     <tbody>
       {users.map(({ login, picture, name, email }) => {
@@ -9,7 +9,7 @@ function Info(users) {
               <td>
                 <img
                   src={picture.medium}
-                  alt={name.first + " " + name.last}
+                  alt={`${name.first} ${name.last}`}
                 />
               </td>
               <td>

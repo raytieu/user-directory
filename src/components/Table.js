@@ -1,7 +1,7 @@
 import React from "react";
 import Info from "./Info";
 
-function Table(users) {
+function Table({ users }) {
   return (
     <div className="table-responsive">
       <table className="table table-striped table-sm">
@@ -12,7 +12,7 @@ function Table(users) {
             <th>E-mail Address</th>
           </tr>
         </thead>
-        {/* <Info users={users} /> */}
+        <Info users={users} />
       </table>
     </div>
   );

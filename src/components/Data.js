@@ -5,6 +5,7 @@ import getUsers from "../util/getUsers";
 export default class Data extends Component {
   state = {
     users: [],
+    order: "descend"
   }
 
   componentDidMount() {

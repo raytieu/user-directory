@@ -11,7 +11,7 @@
 
 ## Project Description
 
-User Directory is a React.js-based application that allows users to view and sort through a directory of employees for a company.
+User Directory is a React.js-based application that allows users to look through a list of employees for a company.
 
 
 ## Installation/Usage
